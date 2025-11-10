@@ -1,60 +1,123 @@
-# CodeIgniter 4 Framework
+# Ceylon Arts & Crafts Website
 
-## What is CodeIgniter?
+## Overview
+An attractive, professional website for Ceylon Arts & Crafts business built using the CodeIgniter 4 framework. The website showcases authentic Sri Lankan handicrafts and provides comprehensive information about the business.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Features Implemented
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+### 1. Navigation Bar
+- **4 Navigation Links**: Home, About, Products, Contact
+- Responsive and sticky navigation
+- Active page highlighting
+- Professional brown and gold color scheme matching the Ceylon crafts theme
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+### 2. Main Banner
+- Eye-catching hero section with gradient background
+- Compelling headline: "Authentic Ceylon Arts & Crafts"
+- Descriptive tagline
+- Call-to-action button
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+### 3. Information about Ceylon Arts & Crafts
+The website provides comprehensive information including:
 
-## Important Change with index.php
+#### Home Page:
+- About section describing the company's heritage and mission
+- Featured product showcase with 6 categories:
+  * Hand-Carved Sculptures
+  * Traditional Masks
+  * Handwoven Fabrics
+  * Ceramic Artwork
+  * Handcrafted Jewelry
+  * Brass Artifacts
+- "Why Choose Ceylon Crafts" section highlighting key benefits
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+#### About Page:
+- Company story and heritage
+- Mission and vision statements
+- Information about artisan communities
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+#### Products Page:
+- Detailed product catalog with 9 categories
+- Product features and descriptions
+- Visual icons for each product category
 
-**Please** read the user guide for a better explanation of how CI4 works!
+#### Contact Page:
+- Contact information (address, phone, email)
+- Business hours
+- Contact form for inquiries
 
-## Repository Management
+### 4. Footer
+- **Social Media Links**:
+  * Facebook link: https://www.facebook.com/ceyloncrafts
+  * YouTube link: https://www.youtube.com/ceyloncrafts
+- Quick navigation links
+- Company information
+- Copyright notice
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## Technical Details
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+### Framework
+- **CodeIgniter 4** - Modern PHP framework
 
-## Contributing
+### File Structure
+```
+app/
+├── Controllers/
+│   └── Home.php (Main controller with 4 methods)
+├── Views/
+│   ├── ceylon_home.php (Home page)
+│   ├── ceylon_about.php (About page)
+│   ├── ceylon_products.php (Products page)
+│   └── ceylon_contact.php (Contact page)
+└── Config/
+    └── Routes.php (URL routing configuration)
+```
 
-We welcome contributions from the community.
+### Routes Configured
+- `/` - Home page
+- `/about` - About page
+- `/products` - Products page
+- `/contact` - Contact page
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+### Design Features
+- Responsive design (mobile-friendly)
+- Professional color scheme (browns, golds, creams)
+- Gradient backgrounds
+- Hover effects and animations
+- Box shadows for depth
+- Clean, modern layout
+- Cultural theme matching Sri Lankan heritage
 
-## Server Requirements
+### Color Palette
+- Primary Brown: #8B4513
+- Secondary Brown: #A0522D
+- Gold Accent: #FFD700
+- Light Backgrounds: #FFF8DC, #FAEBD7
+- Text: #333
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+## How to Run
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+1. Ensure XAMPP is running with Apache
+2. Access the website at: `http://localhost/lab02_task02_php/public/`
+3. Navigate through the pages using the navigation menu
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+## Pages
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+### Home (`/`)
+Complete landing page with banner, about section, featured products, and benefits
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+### About (`/about`)
+Detailed information about the company's history, mission, and vision
+
+### Products (`/products`)
+Comprehensive product catalog with descriptions and features
+
+### Contact (`/contact`)
+Contact information and inquiry form
+
+## Browser Compatibility
+- Modern browsers (Chrome, Firefox, Safari, Edge)
+- Responsive design for mobile and tablet devices
+
+## Credits
+Developed using CodeIgniter 4 framework for Ceylon Arts & Crafts business.
