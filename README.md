@@ -121,3 +121,16 @@ Contact information and inquiry form
 
 ## Credits
 Developed using CodeIgniter 4 framework for Ceylon Arts & Crafts business.
+
+## Images of the Ceylon Arts & Crafts Website
+<img width="1899" height="903" alt="image" src="https://github.com/user-attachments/assets/f01afa6c-d996-44ba-b708-68273168d61c" />
+
+<img width="1896" height="905" alt="image" src="https://github.com/user-attachments/assets/ce033274-bf89-4223-9fcb-4d1ece4ae814" />
+
+<img width="1896" height="900" alt="image" src="https://github.com/user-attachments/assets/0a92e8dd-602d-4f27-9743-824d0ebfbce6" />
+
+<img width="1897" height="476" alt="image" src="https://github.com/user-attachments/assets/b3d5b6c9-228a-4b66-a6df-1ed5ad86ac0a" />
+
+
+
+
